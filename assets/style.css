@@ -20,7 +20,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--primary);
-  background-color: var(--light);
+  background-color: var(--tertiary);
   line-height: 1.5;
 }
 
@@ -104,6 +104,15 @@ nav a:hover {
 
 nav a:last-child {
   margin-right: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--light);
+  background-color: var(--primary);
 }
 
 .header-image {
@@ -198,10 +207,10 @@ main {
 
 .flex-item {
   border: 5px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
+  background-color: var(--light);
+  color: var(--primary);
   min-height: 150px;
-  max-height: 150px;
+  max-height: 200px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -211,7 +220,7 @@ main {
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
-  font-size: 0.9rem;
+  font-size: 1.9rem;
 }
 
 /* feature first portfolio item */
@@ -243,7 +252,7 @@ main {
 }
 
 .contact address a {
-  color: var(--tertiary);
+  color: var(--light);
   padding: 5px;
   text-decoration: none;
   font-size: 1.3rem;
@@ -264,24 +273,38 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
-/*.run-buddy {
-  
+.study-guide{
+  background-image: url("studying-at-night-stockcake2.jpg");
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.app-2 {
+  background-image: url(./Coming\ soon.png);
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
-.led-wall {
-  
+.app-3 {
+  background-image: url(./Coming\ soon.png);
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
-.react-calc {
-  
+.app-4 {
+  background-image: url(./Coming\ soon.png);
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
-.pastel-puzzles {
-  
-}
-
-.surf-report {
-  
+.app-5 {
+  background-image: url(./Coming\ soon.png);
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 /* media queries */
